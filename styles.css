@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body {
+    font-family: 'Allerta Stencil', sans-serif;
+    background-image: url('images/mandalorian_background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.main-div {
+    width: 100%;
+    margin-top: 12.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30rem;
+    text-align: center;
+}
+
+.input-div {
+    display: inline;
+    float: left;
+    width: 33.33%;
+}
+
+.textarea {
+    padding: 0.5rem;
+    height: 15vh;
+    width: 24vw;
+    border-radius: 1rem;
+}
+
+.button-div {
+    display: inline;
+    float: left;
+    width: 33.33%;
+    margin-top: 4rem;
+}
+
+.translate-btn {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px maroon solid;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.output-div {
+    display: inline;
+    float: left;
+    width: 33.33%;
+}
+
+.output-area {
+    display: inline;
+    padding: 0.5rem;
+    height: 15vh;
+    width: 24vw;
+    background-color: white;
+    border: 2px gray solid;
+    border-radius: 1rem;
+}
+
+.footer {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.footer-header {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .social-link {
+    text-decoration: none;
+    color: white
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
