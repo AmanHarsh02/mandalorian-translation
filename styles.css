@@ -3,8 +3,15 @@
 body {
     font-family: 'Allerta Stencil', sans-serif;
     background-image: url('images/mandalorian_background.jpg');
-    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+    max-height: 20vw;
 }
 
 .heading {
